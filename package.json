@@ -4,6 +4,8 @@
   "description": "Brackets",
   "main": "test.js",
   "scripts": {
+    "lint": "eslint src/ --fix",
+    "format": "prettier --write src/",
     "test": "mocha test.js",
     "postinstall": "node postinstall.js"
   },
@@ -20,6 +22,8 @@
     "url": "https://github.com/yankouskia/additional_5/issues"
   },
   "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
     "mocha": "^3.2.0",
     "prettier": "^2.2.1"
   },
