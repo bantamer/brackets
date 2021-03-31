@@ -3,7 +3,7 @@ module.exports = {
         node: true,
         browser: true,
         es2021: true,
-        Mocha: true,
+        mocha: true,
     },
     extends: ['prettier', 'eslint:recommended'],
     parserOptions: {
